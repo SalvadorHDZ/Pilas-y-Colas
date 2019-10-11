@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 		case 1:
         	if(!pnueva)
 			{
-				printf("CUAL SERA EL TAMAÑO DE LA PILA. \n");
+				printf("CUAL SERA EL TAMAÃ‘O DE LA PILA. \n");
 				scanf("%d",&tam);
             	inicializaPila(&p,tam);
             	pnueva++;
@@ -56,7 +56,7 @@ int main(int argc, char *argv[]) {
 				scanf("%s",&sino);
 				if(sino=='s')
 				{
-					printf("CUAL SERA EL TAMAÑO DE LA PILA. \n");
+					printf("CUAL SERA EL TAMAÃ‘O DE LA PILA. \n");
 					scanf("%d",&tam);
 					inicializaPila(&p,tam);
 	          		verificar(accion,1);
@@ -66,7 +66,7 @@ int main(int argc, char *argv[]) {
             case 4:
         	if(!colanueva)
 			{
-				printf("CUAL SERA EL TAMÑO DE LA COLA. \n");
+				printf("CUAL SERA EL TAMÃ‘O DE LA COLA. \n");
 				scanf("%d",&tam);
 				inicializaCola(&c,tam);
 				colanueva=1;
@@ -111,7 +111,7 @@ int main(int argc, char *argv[]) {
 		case 6:
 			break;
         default:
-            printf("¡¡ERROR!! EL NUMERO ES INVALIDO. \n");
+            printf("Â¡Â¡ERROR!! EL NUMERO ES INVALIDO. \n");
 		}
     }else{
     	if(accion == 2 || accion == 3)
